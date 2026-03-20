@@ -1,0 +1,2 @@
+Projeto básica visando a construção de uma landing page para uma lanchonete. 
+O objetivo do projeto é reduzir  a quantidade de informações desnecessárias e tornar o site o mais amigável possível a potenciais clientes. 

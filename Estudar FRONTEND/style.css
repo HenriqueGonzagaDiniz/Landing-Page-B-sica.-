@@ -1,0 +1,46 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+
+section {
+  padding: 30px;
+}
+
+.produto {
+  border: 10px solid #ccc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 15px;
+  position: sticky;
+  bottom: 0;
+}
+
+/* Mobile First */
+@media (min-width: 768px) {
+  .produtos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .produto {
+    width: 200px;
+  }
+}

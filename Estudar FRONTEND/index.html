@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Burguer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍔 Super Burguer</h1>
+</header>
+
+<section class="sobre">
+  <h2>Sobre nós👇​​</h2>
+  <p>Hamburgueria artesanal com ingredientes frescos e sabor único.</p>
+</section>
+
+<section class="produtos">
+  <h2>Cardápio📕</h2>
+
+  <div class="produto">
+    <h3>X-Burguer🍔</h3>
+    <p>R$ 15,00</p>
+    <button onclick="diminuir(0)">-</button>
+    <span id="qtd0">0</span>
+    <button onclick="aumentar(0)">+</button>
+  </div>
+
+  <div class="produto">
+    <h3>X-Bacon🍔🥓</h3>
+    <p>R$ 18,00</p>
+    <button onclick="diminuir(1)">-</button>
+    <span id="qtd1">0</span>
+    <button onclick="aumentar(1)">+</button>
+  </div>
+
+  <div class="produto">
+    <h3>Refrigerante🥤</h3>
+    <p>R$ 6,00</p>
+    <button onclick="diminuir(2)">-</button>
+    <span id="qtd2">0</span>
+    <button onclick="aumentar(2)">+</button>
+  </div>
+
+</section>
+
+<footer>
+  <h2>Total: R$ <span id="total">0.00</span></h2>
+</footer>
+
+<section class="wpp">
+    <button onclick="Whatsapp">Fazer pedido por WhatsApp📞</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
